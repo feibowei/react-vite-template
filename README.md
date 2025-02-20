@@ -1,6 +1,7 @@
+# Use
+react + vite + ts + less + tailwind
 # Getting Started
-
-To run this application:
+node >= 18.18.0
 
 ```bash
 pnpm install

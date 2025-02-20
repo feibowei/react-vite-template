@@ -1,6 +1,7 @@
 
 import { createFileRoute } from "@tanstack/react-router";
 import logo from "../logo.svg";
+import styles from "./index.module.less";
 
 
 export const Route = createFileRoute("/")({
@@ -36,6 +37,7 @@ function App() {
           Learn TanStack
         </a>
       </header>
+      <div className={styles.app}></div>
     </div>
   );
 }

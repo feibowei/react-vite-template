@@ -12,4 +12,11 @@ export default defineConfig({
     globals: true,
     environment: "jsdom",
   },
+  css: {
+    preprocessorOptions: {
+      less: {
+        javascriptEnabled: true,
+      },
+    },
+  },
 });
